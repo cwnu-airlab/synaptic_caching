@@ -1,0 +1,23 @@
+{
+    "narrativeqa": "moving_average", 
+    "qasper": "gaussian", 
+    "multifieldqa_en": "moving_average", 
+    "multifieldqa_zh": "moving_average", 
+    "hotpotqa": "moving_average", 
+    "2wikimqa": "moving_average", 
+    "musique": "gaussian", 
+    "dureader": "moving_average", 
+    "gov_report": "moving_average", 
+    "qmsum": "moving_average", 
+    "multi_news": "gaussian", 
+    "vcsum": "gaussian", 
+    "trec": "moving_average", 
+    "triviaqa": "gaussian", 
+    "samsum": "gaussian", 
+    "lsht": "moving_average", 
+    "passage_count": "gaussian", 
+    "passage_retrieval_en": "moving_average", 
+    "passage_retrieval_zh": "moving_average", 
+    "lcc": "moving_average", 
+    "repobench-p": "moving_average"
+}
