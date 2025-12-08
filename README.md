@@ -77,3 +77,10 @@ KV Cache 관리(Attention Sink)를 위하여 다음 연구를 참조합니다.
       # 캐시에 있는 토큰들의 위치 정보(cache_position)를 재정렬합니다.
       pass
   ```
+
+
+- 실행 방법은 다음과 같습니다.
+``` shell
+CUDA_VISIBLE_DEVICES=3 python longbench_streaming_w_EMA_RoPE_regen.py --model_name_or_path meta-llama/Meta-Llama-3-8B-Instruct \\
+					 --enable_start_recent_kv_cache --start_size 160 --recent_use no --compress gaus
+```
